@@ -69,9 +69,8 @@
   </header><!-- End Header -->
 
   <main id="main">
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -109,10 +108,10 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <!-- <form  name="form1" onsubmit="return validate();"  class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="text1" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
@@ -130,14 +129,41 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </form> -->
+            <form name="form1" id="" onsubmit = "return validate();" class="php-email-form">
+              <div class="row">
+                  <div class="control-group col-sm-6">
+                      <input type="text" name='text1' class="form-control" id="name" placeholder="Your Name" required/>
+                      <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="control-group col-sm-6">
+                      <input type="text" class="form-control " id="email" placeholder="Your Email"/>
+                      <p class="help-block text-danger"></p>
+                  </div>
+              </div>
+              <div class="control-group">
+                  <input type="text" class="form-control" id="subject" placeholder="Subject"/>
+                  <p class="help-block text-danger"></p>
+              </div>
+              <div class="control-group">
+                  <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"></textarea>
+                  <p class="help-block text-danger"></p>
+              </div>
+              <div>
+                  <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">
+                      Message</a></button>
+              </div>
+          </form>
 
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+     -->    
+    
+    <!-- End Contact Section
 
   </main><!-- End #main -->
 
