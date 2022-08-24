@@ -109,7 +109,7 @@ function validate() {
       alert(text);
       return false;
   }
-  if (message == null || message.trim() =="") {
+  if (message == null || message.trim() == "") {
       text = "Enter a message";
       alert(text);
       return false;
